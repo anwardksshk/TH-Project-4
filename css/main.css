@@ -1,0 +1,75 @@
+/************************
+    GENERAL
+************************/
+
+*   {
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+a   {
+    display: inline-block;
+}
+/************************
+   HEADER
+************************/
+
+header  {
+    text-align: center;
+}
+
+.search-box {
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 15px 10px;
+    margin: 20px;
+    height: 21px;
+    width: 300px;
+    font-size: 14px;
+    color: grey;
+}
+
+.search-box:focus  {
+    outline-width: 0;
+    border: 1px solid black;
+}
+
+.search-box:placeholder-shown   {
+    font-size: 10px;
+    font-style: italic;
+}
+/************************
+   BODY
+************************/
+
+.main-container  {
+    text-align: center;
+    margin: 0;
+    max-width: 1100px;
+}
+
+.main-container a   {
+    margin: 1.5%;
+}
+
+/************************
+   RESPONSIVE
+************************/
+
+@media screen and (min-width: 768px)  {
+    
+.main-container  {
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.main-container a   {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+}
